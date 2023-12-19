@@ -1,0 +1,258 @@
+@font-face {
+    font-family: font;
+    src: url("../super_dream/Super\ Dream.ttf") format('woff2');
+}
+
+@font-face {
+    font-family: fontM;
+    src: url("../microsoft-sans-serif-cufonfonts/micross.ttf") format('woff2');
+}
+
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-image: url(./images/homeAchtergrond.jpg);
+    background-size: cover;
+}
+
+.andere {
+    background-image: url(./images/achter.jpg);
+    background-size: cover;
+}
+
+
+
+.Logo {
+    height: 44em;
+    width: 27em;
+    position: absolute;
+    right: 7.5em;
+    top: -19.5em;
+}
+
+header nav {
+    background-color: white;
+    width: 20em;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    position: fixed;
+    height: 4em;
+    bottom: 0;
+    z-index: 9999;
+
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav li {
+    position: relative;
+    margin: 1em;
+    bottom: 1em;
+}
+
+header li img {
+    width: 4.5em;
+    height: 4.5em;
+
+}
+
+
+.Begin h2,
+.Begin h3,
+.Begin h4 {
+    font-family: font;
+    color: white;
+    font-weight: 100;
+
+}
+
+.Begin h2 {
+    position: relative;
+    top: 2em;
+    left: 3.8em;
+    font-size: 3em;
+}
+
+.Begin h3 {
+    position: relative;
+    top: 1.6em;
+    left: 3.8em;
+    font-size: 3.3em;
+}
+
+.Begin h4 {
+    position: relative;
+    top: 1.6em;
+    left: 3.7em;
+    font-size: 3.3em;
+}
+
+.Begin h5 {
+    font-family: font;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    line-height: 2em;
+    width: 8em;
+    height: 2em;
+    border-radius: 50%;
+    border-color: #E5D42F;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    top: 7em;
+    left: 17em;
+
+}
+
+.Begin img {
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    top: 5em;
+    border-color: #E5D42F;
+}
+
+.StoreInfoWie {
+    position: relative;
+    top: 7em;
+    margin: 1em;
+
+}
+
+.StoreInfoWie li {
+    list-style: none;
+    margin: 1em;
+
+}
+
+.StoreInfoWie h3,
+.StoreInfoWie h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+}
+
+.StoreInfoWie p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+
+}
+
+
+.StoreInfoTips {
+    position: relative;
+    top: 3em;
+    margin: 1em;
+
+}
+
+.StoreInfoTips li {
+    list-style: none;
+    margin: 1em;
+
+}
+
+.StoreInfoTips h3,
+.StoreInfoTips h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+}
+
+
+.StoreInfoTips p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+
+}
+
+.StoreInfoTips h1 {
+    font-size: 3em;
+    font-family: font;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -.5em;
+    color: white;
+}
+
+/* .StoreInfoTips li:nth-child(3) img{
+position: relative;
+top: 8em;
+left: 1em;
+display: block;
+
+} */
+
+
+
+
+.waaromFo h1 {
+    font-size: 2.3em;
+    font-family: font;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2.5em;
+    color: white;
+}
+
+.waaromFo img:nth-child(2) {
+    position: absolute;
+    top: -13.5em;
+    z-index: -10;
+}
+
+.waaromFo img:nth-child(3) {
+    position: absolute;
+    top: -5em;
+
+}
+
+.waaromInfo {
+    position: relative;
+    top: 20em;
+    margin: 1em;
+
+}
+
+.waaromInfo h3,
+.waaromInfo h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+}
+
+.waaromInfo li {
+    list-style: none;
+    margin: 1em;
+
+}
+
+.waaromInfo p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+
+}
